@@ -344,11 +344,11 @@ function CourseCard({ course, index, navigate }) {
             <span className="text-white font-semibold">{course.rating}</span>
           </span>}
           {course.rating != null && <span className="w-1 h-1 rounded-full bg-white/20" />}
-          {course.category !== "Medical" && <span className="flex items-center gap-1">
+          <span className="flex items-center gap-1" aria-label={`${course.students} students`}>
             <Users className="w-3.5 h-3.5" />
             {course.students}
-          </span>}
-          {course.category !== "Medical" && <span className="w-1 h-1 rounded-full bg-white/20" />}
+          </span>
+          <span className="w-1 h-1 rounded-full bg-white/20" />
           <span className="flex items-center gap-1">
             <Clock className="w-3.5 h-3.5" />
             {course.duration}

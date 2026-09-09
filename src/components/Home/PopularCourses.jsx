@@ -171,10 +171,10 @@ export default function PopularCourses() {
                             <Clock className="w-3.5 h-3.5 md:w-4 md:h-4 text-slate-400" />
                             {course.duration || "2 Months"}
                           </div>
-                          {course.category !== "Medical" && <div className="flex items-center gap-1.5 px-2.5 py-1.5 bg-slate-50 rounded-lg text-[11px] md:text-[12px] font-bold text-slate-600">
+                          <div aria-label={`${course.students} students`} className="flex items-center gap-1.5 px-2.5 py-1.5 bg-slate-50 rounded-lg text-[11px] md:text-[12px] font-bold text-slate-600">
                             <Users className="w-3.5 h-3.5 md:w-4 md:h-4 text-slate-400" />
-                            {course.students || "10k+ Mentees"}
-                          </div>}
+                            {course.students}
+                          </div>
                         </div>
 
                         {/* Action Button */}
