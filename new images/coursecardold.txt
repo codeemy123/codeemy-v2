@@ -1,0 +1,195 @@
+ import AI_image from "../src/assets/AI_course.jpg"
+ import web from "../src/assets/web.jpg"
+ import android from "../src/assets/android.jpg"
+ import data_analytics from "../src/assets/data_analytics.jpg"
+ import digital from "../src/assets/digital_marketing.jpg"
+ import CAD from "../src/assets/autocad.jpg"
+ import HR from "../src/assets/HR.jpg"
+ import cyber from "../src/assets/cyber.jpg"
+ import AWS from "../src/assets/AWS.jpg"
+
+export const courses = [
+  {
+    id: 1,
+    title: "Full Stack Web Development",
+    description: "Learn to build dynamic, responsive, and scalable web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+    image: web,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Programming",
+    gradient: "from-indigo-600 to-blue-800", // techy blue for web dev
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/web.pdf"
+  },
+  
+  {
+    id: 2,
+    title: "Cyber Security & Ethical Hacking",
+    description: "Protect systems and networks by mastering ethical hacking, penetration testing, and modern cybersecurity practices.",
+    image: cyber,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Technology",
+    gradient: "from-purple-600 to-purple-800", // dark, stealthy for hacking
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/cyber.pdf"
+ 
+  },
+  {
+    id: 3,
+    title: "Android & iOS App Development",
+    description: "Build powerful native and cross-platform mobile apps using Java, Kotlin, Swift, and React Native.",
+    image: android,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Mobile Dev",
+    gradient: "from-green-500 to-teal-700", // mobile-friendly vibrant tones
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Flutter-Powered%20Mobile%20App%20%20Innovator%20Program%20-%20CodeEmy!.pdf"
+ 
+  },
+
+  {
+    id: 4,
+    title: "Artificial Intelligence (AI)",
+    description: "Master core AI concepts including neural networks, natural language processing, computer vision, and intelligent systems.",
+    image: AI_image,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "AI & ML",
+    gradient: "from-purple-600 to-purple-800", // futuristic vibe
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/AI.pdf"
+ 
+  },
+  {
+    id: 5,
+    title: "Digital Marketing",
+    description: "Learn to grow brands and businesses online through SEO, SEM, social media, content marketing, and analytics.",
+    image: digital,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Technology",
+    gradient: "from-teal-600 to-teal-800", // energetic & modern marketing color
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Digital%20Marketing.pdf"
+  },
+  {
+    id: 6,
+    title: "Data Analytics",
+    description: "Analyze, visualize, and interpret complex data using Excel, SQL, Tableau, and Python-based tools.",
+    image: data_analytics,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Data Science",
+    gradient: "from-pink-600 to-pink-800", // analytical, sharp colors
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Data%20Analytics.pdf"
+
+  },
+  {
+    id: 7,
+    title: "AutoCAD & CATIA",
+    description: "Master 2D and 3D design using AutoCAD and CATIA for industrial, architectural, and mechanical applications.",
+    image: CAD,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Technology",
+    gradient: "from-red-600 to-red-800", // CAD-like engineering blue
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Design.pdf"
+
+  },
+  {
+    id: 8,
+    title: "AWS Cloud Computing",
+    description: "Learn cloud fundamentals and develop, deploy, and manage scalable applications on AWS infrastructure.",
+    image: AWS,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Technology",
+    gradient: "from-orange-500 to-yellow-600", // AWS brand-aligned warm colors
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/AWS.pdf"
+
+  },
+  {
+    id: 9,
+    title: "HR Analytics & Recruitment",
+    description: "Use data-driven techniques to optimize recruitment, employee performance, and strategic HR decision-making.",
+    image: HR,
+    price: "₹14999",
+    originalPrice: "₹25000",
+    rating: 4.8,
+    students: "200+",
+    duration: "120 hours",
+    lessons: 60,
+    level: "Beginner to Advanced",
+    category: "Technology",
+    gradient: "from-yellow-600 to-yellow-800", // HR-friendly, people-focused tones
+    lastUpdated: "2025-07-25",
+    language: "English",
+    bestseller: false,
+    pdf:"https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/HR.pdf"
+
+  }
+]
+
+
+

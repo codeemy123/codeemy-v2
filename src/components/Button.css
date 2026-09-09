@@ -1,0 +1,68 @@
+.button_box {
+  width: 100px;
+  height: 40px;
+  border-radius: 999px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  /* subtle fallback */
+  cursor: pointer;
+}
+
+.button_box:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+}
+
+.rotating_border_ring {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  /* Conic gradient creates a sleek "running tail" effect on the border */
+  background: conic-gradient(from 0deg,
+      transparent 0%,
+      transparent 60%,
+      #c084fc 80%,
+      #818cf8 100%);
+  animation: rotate 2.5s linear infinite;
+  z-index: 1;
+}
+
+.buttonClass {
+  position: absolute;
+  z-index: 2;
+  /* 2px border gap */
+  width: calc(100% - 3px);
+  height: calc(100% - 3px);
+  border-radius: 999px;
+  border: none;
+  /* Dark background to match Navbar */
+  background-color: rgba(18, 14, 42, 0.95);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_box:hover .buttonClass {
+  background-color: rgba(18, 14, 42, 0.85);
+  color: #c084fc;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

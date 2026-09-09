@@ -1,0 +1,467 @@
+replace the pdf link with this corresponding links
+
+https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Applied%20Machine%20Intelligence%20Mastery%20Program%20-%20CodeEmy!.pdf
+
+https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Fashion%20Technology%20%26%20Design%20Program%20-%20CodeEmy!.pdf
+
+https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Next-Gen%20IoT%20%26%20Robotics%20Program%20-%20CodeEmy!.pdf
+
+https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Product%20Design%20%26%203D%20Modeling%20Program%20-%20CodeEmy!.pdf
+
+https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/Python%20Programming%20-%20CodeEmy!.pdf
+
+https://raw.githubusercontent.com/codeemy123/codeemy-pdf/main/UIUX%20Design%20%26%20Prototyping%20Program%20-%20CodeEmy!.pdf
+
+
+
+
+1: {
+  title: "Applied Machine Intelligence Mastery",
+  description: "Master Machine Learning, Deep Learning, and AI tools to build intelligent systems, predictive models, and real-world AI applications.",
+  instructor: "Dr. Arjun Mehta",
+  instructorAvatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=64&h=64&fit=crop&crop=face",
+  image: machine_intelligence,
+
+  price: "₹14,999",
+  originalPrice: "₹24,999",
+  rating: 4.9,
+  students: "220+",
+  duration: "120 hours",
+  lessons: 60,
+  level: "Beginner to Advanced",
+  category: "Artificial Intelligence",
+  gradient: "from-purple-600 to-indigo-800",
+
+  whatYoullLearn: [
+    "Machine Learning fundamentals",
+    "Supervised & Unsupervised Learning",
+    "Deep Learning with Neural Networks",
+    "Computer Vision and NLP basics",
+    "Model evaluation and deployment",
+    "Real-world AI projects"
+  ],
+
+  uniqueFeatures: [
+    "Earn While You Learn project rewards",
+    "Freelancing AI project mentorship",
+    "Campus leaderboard competitions",
+    "Mentor-reviewed real projects",
+    "Offline AI innovation showcase"
+  ],
+
+  toolsCovered: [
+    "Python",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "Jupyter Notebook",
+    "Google Colab"
+  ],
+
+  careerSupport: [
+    "Resume Building",
+    "Mock Interviews",
+    "Placement Assistance"
+  ],
+
+  syllabus: [
+    {
+      id: 1,
+      title: "Introduction to AI & ML",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "AI vs ML vs Data Science",
+        "Applications of Machine Learning",
+        "Setting up Python ML environment",
+        "Introduction to datasets"
+      ],
+      miniProject: "Basic Data Exploration"
+    },
+    {
+      id: 2,
+      title: "Python for Machine Learning",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "NumPy and Pandas",
+        "Data Cleaning",
+        "Feature Engineering",
+        "Data Visualization"
+      ],
+      miniProject: "Data Analysis Dashboard"
+    },
+    {
+      id: 3,
+      title: "Supervised Learning",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "Linear Regression",
+        "Logistic Regression",
+        "Decision Trees",
+        "Model Evaluation"
+      ],
+      miniProject: "House Price Prediction"
+    },
+    {
+      id: 4,
+      title: "Unsupervised Learning",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "Clustering",
+        "K-Means Algorithm",
+        "Dimensionality Reduction",
+        "Principal Component Analysis"
+      ],
+      miniProject: "Customer Segmentation"
+    },
+    {
+      id: 5,
+      title: "Deep Learning",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "Neural Networks",
+        "Backpropagation",
+        "Activation Functions",
+        "TensorFlow basics"
+      ],
+      miniProject: "Image Classification"
+    }
+  ],
+
+  certification: {
+    title: "Certified Machine Intelligence Developer",
+    description: "Industry-recognized certification validating your AI and Machine Learning expertise.",
+    features: [
+      "Verified digital certificate",
+      "Shareable LinkedIn credential",
+      "Recognized by startups and recruiters",
+      "Includes real AI project portfolio"
+    ]
+  }
+}
+
+
+
+2: {
+  title: "Fashion Technology & Design",
+  description: "Learn fashion illustration, garment construction, textile science, and fashion design principles to build a professional fashion portfolio.",
+  instructor: "Ms. Kavya Sharma",
+  instructorAvatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=64&h=64&fit=crop&crop=face",
+  image: fashion_design,
+
+  price: "₹14,999",
+  originalPrice: "₹24,999",
+  rating: 4.8,
+  students: "180+",
+  duration: "120 hours",
+  lessons: 60,
+  level: "Beginner to Advanced",
+  category: "Fashion Design",
+  gradient: "from-pink-500 to-purple-700",
+
+  whatYoullLearn: [
+    "Fashion illustration techniques",
+    "Fabric selection and textile knowledge",
+    "Pattern making and garment construction",
+    "Fashion styling and branding",
+    "Portfolio building",
+    "Fashion industry insights"
+  ],
+
+  uniqueFeatures: [
+    "Fashion portfolio mentorship",
+    "Design competitions",
+    "Campus fashion leaderboard",
+    "Industry mentor feedback",
+    "Offline design showcase"
+  ],
+
+  toolsCovered: [
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "Fashion Sketching Tools",
+    "Pattern Making Tools"
+  ],
+
+  careerSupport: [
+    "Resume Building",
+    "Portfolio Review",
+    "Placement Assistance"
+  ],
+
+  syllabus: [
+    {
+      id: 1,
+      title: "Introduction to Fashion Design",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "History of Fashion",
+        "Elements of Design",
+        "Color Theory",
+        "Fashion Trends"
+      ],
+      miniProject: "Trend Board"
+    },
+    {
+      id: 2,
+      title: "Fashion Illustration",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "Human Proportions",
+        "Croquis Drawing",
+        "Fabric Rendering",
+        "Outfit Sketching"
+      ],
+      miniProject: "Fashion Illustration Portfolio"
+    }
+  ],
+
+  certification: {
+    title: "Certified Fashion Designer",
+    description: "Professional certification validating fashion design and garment construction skills.",
+    features: [
+      "Portfolio-based certification",
+      "Industry recognition",
+      "Design showcase opportunity"
+    ]
+  }
+}
+
+
+
+3: {
+  title: "Next-Gen IoT & Robotics",
+  description: "Learn embedded systems, sensors, robotics programming, and IoT communication to build smart devices and automation systems.",
+  instructor: "Mr. Rohan Kulkarni",
+  instructorAvatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=64&h=64&fit=crop&crop=face",
+  image: iot_robotics,
+
+  price: "₹14,999",
+  originalPrice: "₹24,999",
+  rating: 4.8,
+  students: "210+",
+  duration: "120 hours",
+  lessons: 60,
+  level: "Beginner to Advanced",
+  category: "IoT",
+  gradient: "from-blue-600 to-indigo-700",
+
+  whatYoullLearn: [
+    "IoT architecture",
+    "Sensors and microcontrollers",
+    "Embedded programming",
+    "Robotics automation",
+    "IoT cloud integration",
+    "Smart device development"
+  ],
+
+  toolsCovered: [
+    "Arduino",
+    "Raspberry Pi",
+    "MQTT",
+    "Node-RED",
+    "Python"
+  ],
+
+  careerSupport: [
+    "IoT project portfolio",
+    "Resume building",
+    "Placement assistance"
+  ],
+
+  syllabus: [
+    {
+      id: 1,
+      title: "IoT Fundamentals",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "IoT ecosystem",
+        "Sensors & actuators",
+        "Embedded systems",
+        "Basic electronics"
+      ],
+      miniProject: "Smart Sensor System"
+    }
+  ],
+
+  certification: {
+    title: "Certified IoT & Robotics Engineer",
+    description: "Certification validating skills in IoT devices and robotics systems."
+  }
+}
+
+
+
+4: {
+  title: "Product Design & 3D Modeling",
+  description: "Master CAD design using AutoCAD and CATIA to build professional mechanical and industrial product designs.",
+  instructor: "Mr. Karan Desai",
+  instructorAvatar: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=64&h=64&fit=crop&crop=face",
+  image: product_design,
+
+  price: "₹14,999",
+  originalPrice: "₹24,999",
+  rating: 4.7,
+  students: "160+",
+  duration: "120 hours",
+  lessons: 60,
+  level: "Beginner to Advanced",
+  category: "Engineering Design",
+  gradient: "from-cyan-600 to-blue-800",
+
+  whatYoullLearn: [
+    "2D drafting with AutoCAD",
+    "3D modeling with CATIA",
+    "Mechanical design concepts",
+    "Industrial design workflow",
+    "Product prototyping"
+  ],
+
+  toolsCovered: [
+    "AutoCAD",
+    "CATIA",
+    "SolidWorks",
+    "Fusion 360"
+  ],
+
+  syllabus: [
+    {
+      id: 1,
+      title: "Introduction to CAD",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "CAD basics",
+        "2D drafting",
+        "Dimensioning",
+        "Design principles"
+      ],
+      miniProject: "Mechanical Drawing"
+    }
+  ],
+
+  certification: {
+    title: "Certified CAD Designer",
+    description: "Certification validating AutoCAD and CATIA design skills."
+  }
+}
+
+
+5: {
+  title: "Advanced Python Engineering",
+  description: "Master Python programming for automation, data processing, backend development, and real-world software projects.",
+  instructor: "Mr. Amit Verma",
+  instructorAvatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=64&h=64&fit=crop&crop=face",
+  image: python_engineering,
+
+  price: "₹14,999",
+  originalPrice: "₹24,999",
+  rating: 4.9,
+  students: "300+",
+  duration: "120 hours",
+  lessons: 60,
+  level: "Beginner to Advanced",
+  category: "Programming",
+  gradient: "from-green-600 to-emerald-800",
+
+  whatYoullLearn: [
+    "Python fundamentals",
+    "Object-oriented programming",
+    "Database integration",
+    "Automation scripting",
+    "Backend development basics"
+  ],
+
+  toolsCovered: [
+    "Python",
+    "Flask",
+    "Django",
+    "SQLite",
+    "Git"
+  ],
+
+  syllabus: [
+    {
+      id: 1,
+      title: "Python Basics",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "Variables",
+        "Data types",
+        "Loops",
+        "Functions"
+      ],
+      miniProject: "Number Guessing Game"
+    }
+  ],
+
+  certification: {
+    title: "Certified Python Developer",
+    description: "Certification validating advanced Python programming skills."
+  }
+}
+
+
+6: {
+  title: "UI/UX Design & Prototyping",
+  description: "Learn UX research, wireframing, UI design, and prototyping to design modern digital products and experiences.",
+  instructor: "Ms. Sneha Kapoor",
+  instructorAvatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=64&h=64&fit=crop&crop=face",
+  image: uiux_design,
+
+  price: "₹14,999",
+  originalPrice: "₹24,999",
+  rating: 4.8,
+  students: "210+",
+  duration: "120 hours",
+  lessons: 60,
+  level: "Beginner to Advanced",
+  category: "Design",
+  gradient: "from-purple-500 to-pink-700",
+
+  whatYoullLearn: [
+    "UX research methods",
+    "Wireframing & prototyping",
+    "Design systems",
+    "User interface design",
+    "Usability testing"
+  ],
+
+  toolsCovered: [
+    "Figma",
+    "Adobe XD",
+    "Sketch",
+    "Miro"
+  ],
+
+  syllabus: [
+    {
+      id: 1,
+      title: "UX Fundamentals",
+      duration: "1 Week",
+      lessons: 5,
+      topics: [
+        "UX principles",
+        "User research",
+        "Personas",
+        "User journeys"
+      ],
+      miniProject: "UX Case Study"
+    }
+  ],
+
+  certification: {
+    title: "Certified UI/UX Designer",
+    description: "Industry recognized certificate validating UI/UX design expertise."
+  }
+}
+
+
