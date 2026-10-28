@@ -1149,6 +1149,7 @@ function FinalCTASection({ formData, setFormData, courseTitle }) {
       setLoading(true)
       
       const payload = {
+        to_email: "info.codeemy@gmail.com",
         name: formData.name,
         email: formData.email,
         phone: formData.phone,

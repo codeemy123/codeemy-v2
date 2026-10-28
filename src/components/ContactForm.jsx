@@ -29,7 +29,7 @@ export default function ContactForm() {
       .send(
         "service_3lf03w8",
         "template_etke5qk",
-        form,
+        { ...form, to_email: "info.codeemy@gmail.com" },
         "rPCZwLcm9ZTYsdCku"
       )
       .then(

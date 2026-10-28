@@ -29,7 +29,7 @@ const contactInfo = [
   },
   {
     title: "Office",
-    content: "D.No: 56, LMS Street, P.N. Palayam, Coimbatore, TN – 641037",
+    content: "332, Chinnasamy Naidu Rd, C.K.Colony, B.K.R Nagar, New Siddhapudur, Coimbatore, Tamil Nadu 641044",
     icon: MapPin,
     color: "#a78bfa",
     gradient: "linear-gradient(135deg, #a78bfa, #7c3aed)",
